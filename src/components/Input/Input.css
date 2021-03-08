@@ -1,0 +1,10 @@
+@duration: 0.8s;
+
+.input{
+  background: rgb(235, 233, 233); 
+  font-size: 15px;
+  max-width: 15em;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
