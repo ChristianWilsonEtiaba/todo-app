@@ -4,14 +4,14 @@ import { Button } from "../Button/Button";
 
 import './List.css'
 
-export const List = ({ list, onChangeBox, handleDel, handleClick }) => (
+export const List = ({ list, onChangeBox, handleClick }) => (
   
   <div className="list">
   <div>
     {list.map((item) => (
       <div className="todo"
         key={item.id}
-        style={{ textDecoration: item.done ? "line-through lightBlue" : null }}
+        style={{ textDecoration: item.done ? "line-through rgb(0, 138, 218)" : null }}
       >
         <Checkbox class="Checkbox"
           onClick={() => onChangeBox(item)}
