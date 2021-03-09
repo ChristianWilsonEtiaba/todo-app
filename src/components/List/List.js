@@ -13,10 +13,10 @@ export const List = ({ list, onChangeBox, handleDel, handleClick }) => (
         key={item.id}
         style={{ textDecoration: item.done ? "line-through lightBlue" : null }}
       >
-        <Checkbox class="Checkbox">
+        <Checkbox class="Checkbox"
           onClick={() => onChangeBox(item)}
           defaultChecked={item.done}
-          </Checkbox>{" "}
+          />{" "}
           <label className="name">
         {item.name}
         </label>
